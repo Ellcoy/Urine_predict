@@ -1,7 +1,7 @@
 # ---- Ensure Required Packages ----
 required_packages <- c(
   "shiny", "shinyjs", "readr", "ranger", "furrr", "future", 
-  "dplyr", "tools", "stringr", "purrr", "here","Spectra"
+  "dplyr", "tools", "stringr", "purrr", "here","Spectra","data.table","tidyverse"
 )
 
 install_if_missing <- function(pkg) {
