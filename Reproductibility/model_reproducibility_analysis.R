@@ -750,5 +750,4 @@ write.csv(cv_class_table,"reproducibility_results/cv_class_metrics_with_CI.csv",
 write.csv(heldout_class_table,"reproducibility_results/heldout_class_metrics_with_CI.csv",row.names=FALSE)
 write.csv(score_summary,"reproducibility_results/score_margin_summary.csv",row.names=FALSE)
 write.csv(benchmark_summary,"reproducibility_results/classifier_benchmark.csv",row.names=FALSE)
-write.csv(checks,"reproducibility_results/article_consistency_checks.csv",row.names=FALSE)
 capture.output(sessionInfo(),file="reproducibility_results/sessionInfo.txt")
