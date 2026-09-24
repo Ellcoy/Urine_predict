@@ -7,4 +7,7 @@ The following figure illustrates the different steps performed during preprocess
 <img width="2000" height="1500" alt="ms_pipeline_clean" src="https://github.com/user-attachments/assets/601353c7-3861-41da-a381-6ab974963eeb" />
 
 
-Should you wish to run prediction on a previously preprocessed file, the model ready csv can be directly uploaded and prediction will be performed using the pretrained random forest models contained in models.Rdata. 
+Should you wish to run prediction on a previously preprocessed file, the model ready csv can be directly uploaded and prediction will be performed using the pretrained random forest models contained in app_model_bundle.rds. 
+
+
+Additional folders are provided with the Archive repository containing previous versions of the prediction Rshiny app that were presented in preprints on BioRxiv and the Reproductibility folder containing the files and code necessary to reproduce the cross validation process and model provided in the latest version of the application as well as key results presented in the latest version of the paper.
